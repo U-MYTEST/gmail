@@ -12,4 +12,4 @@ for password in passwfile:
        print "[*] password found: %s" % password
        break;
     except smtplib.SMTPAuthenticationError:
-       print("NOT FOUND: %s" % password
+       print "NOT FOUND: %s" % password
